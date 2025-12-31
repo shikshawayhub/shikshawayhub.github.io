@@ -45,7 +45,7 @@ function startSlider() {
   slideInterval = setInterval(() => {
     currentIndex = (currentIndex + 1) % slides.length;
     showSlide(currentIndex);
-  }, 2000);
+  }, 5000);
 }
 
 function stopSlider() {
@@ -101,4 +101,5 @@ window.addEventListener('click', e => {
     closeForm();
   }
 });
+
 
